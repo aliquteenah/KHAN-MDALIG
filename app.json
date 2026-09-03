@@ -1,8 +1,8 @@
 {
-  "name": "ALI",
-  "description": "Javascript WhatsApp bot created by ALI",
+  "name": "KHAN-MD",
+  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
   "logo": "https://files.catbox.moe/neni8p.jpg",
-  "keywords": ["ALI"],
+  "keywords": ["KHAN-MD"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -14,7 +14,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "ALI"
+      "value": "KHAN-MD"
     }, 
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -64,12 +64,12 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ALI 🖤*"
+      "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
     }, 
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "ALI"
+      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
     }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
@@ -79,7 +79,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "ALI"
+      "value": "KHAN-MD"
     }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -104,7 +104,7 @@
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ALI*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
@@ -161,11 +161,5 @@
       "required": false,
       "value": "false"
     }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-    }
-  ],
-  "stack": "heroku-24"
+  }
 }
