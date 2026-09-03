@@ -10,24 +10,24 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID
-    PREFIX: getConfig("PREFIX") || ".",  // Command prefix
-    CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ALI",  // تم التعديل إلى ALI
+    SESSION_ID: process.env.SESSION_ID || "",  
+    PREFIX: getConfig("PREFIX") || ".",  
+    CHATBOT: getConfig("CHATBOT") || "on", 
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-MD",  
     MODE: getConfig("MODE") || process.env.MODE || "public",        
-    REPO: process.env.REPO || "https://khanny-pairing.onrender.com/",  // رابط موقع الاقتران
+    REPO: process.env.REPO || "https://github.com/JawadTechXD/KHAN-MD",  
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  
 
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ALI",  // تم التعديل إلى ALI         
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Jᴀᴡᴀᴅ TᴇᴄʜX",           
     DEV: process.env.DEV || "923427582273",                     
     DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            
 
     // ===== AUTO-RESPONSE SETTINGS =====
     AUTO_REPLY: process.env.AUTO_REPLY || "false",              
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
-    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*ALI VIEWED YOUR STATUS 🤖*",  // تم التعديل إلى ALI
+    AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*KHAN MD VIEWED YOUR STATUS 🤖*",  
     READ_MESSAGE: process.env.READ_MESSAGE || "false",          
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     
@@ -36,7 +36,7 @@ module.exports = {
     OWNER_REACT: process.env.OWNER_REACT || "false",              
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          
     CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  
-    STICKER_NAME: process.env.STICKER_NAME || "ALI",     // تم التعديل إلى ALI
+    STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ",     
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          
     
     // ===== MEDIA & AUTOMATION =====
@@ -57,7 +57,7 @@ module.exports = {
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
-    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ALI*",  // تم التعديل إلى ALI
+    DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",  
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", 
